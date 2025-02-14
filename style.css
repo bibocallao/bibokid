@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0fee3;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    max-width: 300px;
+  }
+  
+  .hidden {
+    display: none;
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  
+  .card-image {
+    width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+  }
+  
+  h1 {
+    color: #d32f2f;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #yesButton {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  #noButton {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  #yesButton.expand {
+    transform: scale(1.2);
+  }
+  
+  #nextButton1, #nextButton2, #nextButton3 {
+    background-color: #2196f3;
+    color: white;
+    margin-top: 15px;
+  }
